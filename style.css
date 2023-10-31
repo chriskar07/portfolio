@@ -95,3 +95,34 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+
+#scene-container {
+  display: block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#control-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+#hidden-div {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ccc;
+  padding: 10px;
+  z-index: 3;
+}
+#show-canvas-button {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 4;
+}
