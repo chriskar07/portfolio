@@ -1,6 +1,7 @@
 import './css/main.css'
 import './css/main.sass'
 import * as THREE from'three';
+import gsap from './node_modules/gsap';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { HDRCubeTextureLoader } from 'three/addons/loaders/HDRCubeTextureLoader.js';
